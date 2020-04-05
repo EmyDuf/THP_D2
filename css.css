@@ -1,0 +1,35 @@
+body
+{
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:010px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+aside
+{
+    font-style:italic
+}
+
+h1,h2,h3,.Experience,.Compétences,#Formation
+{
+    color:blue; /* Comment */
+    font-weight:bold;
+    text-align:center; /*left, center, right, justify*/
+    line-height:1.2
+}
+
+.down
+{
+    padding:010px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-end;
+}
